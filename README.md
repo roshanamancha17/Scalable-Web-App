@@ -29,15 +29,15 @@ Backend is built with **Express + MongoDB (Mongoose)** and can be deployed on **
 
 Here’s the login page:
 
-![Login Screenshot](.frontend/assets/login.png)
+![Login Screenshot](./frontend/assets/login.png)
 
 Here’s the dashboard:
 
-![Dashboard Screenshot](.frontend/assets/dashboard.png)
+![Dashboard Screenshot](./frontend/assets/dashboard.png)
 
 Here’s the CRUD operations:
 
-![CRUD Screenshot](.frontend/assets/image.png)
+![CRUD Screenshot](./frontend/assets/image.png)
 
 ---
 
