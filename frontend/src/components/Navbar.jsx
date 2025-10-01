@@ -28,9 +28,9 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-blue-600 text-white px-6 py-4 flex justify-between items-center shadow-md">
-      <Link to="/dashboard">
-        <h1 className="text-xl font-bold">My App</h1>
+    <nav className="bg-blue-600 text-white px-6 py-4 flex justify-between items-center shadow-md sticky top-0 z-50">
+      <Link to="/dashboard" className="text-xl font-bold hover:text-blue-200">
+        My App
       </Link>
 
       <div className="flex items-center space-x-4">
@@ -41,13 +41,11 @@ export default function Navbar() {
           </>
         ) : (
           <>
-            {user && (
-              <span className="font-medium">Welcome, {user.name} 👋</span>
-            )}
+            {user && <span className="font-medium">Welcome, {user.name} 👋</span>}
             <Link to="/dashboard" className="hover:underline">Dashboard</Link>
             <button
               onClick={handleLogout}
-              className="hover:underline bg-red-500 px-3 py-1 rounded"
+              className="bg-red-500 hover:bg-red-600 px-3 py-1 rounded transition"
             >
               Logout
             </button>
