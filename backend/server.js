@@ -10,7 +10,10 @@ const app = express();
 
 // ✅ Middleware
 app.use(cors({
-  origin: "http://localhost:5173", // frontend origin
+  origin: [
+    "http://localhost:5173",                // ✅ allow local dev
+    "https://scalable-web-app-amber.vercel.app" // ✅ allow deployed frontend
+  ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
