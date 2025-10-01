@@ -4,24 +4,6 @@ A fullstack MERN (MongoDB, Express, React, Node.js) application with user authen
 Frontend is built with **React + Vite + TailwindCSS** and deployed on **Vercel**.  
 Backend is built with **Express + MongoDB (Mongoose)** and can be deployed on **Render / Railway / Heroku**.  
 
----
-
-## 📂 Project Structure
-
-Scalable-Web-App/
-│── backend/ # Node.js + Express + MongoDB API
-│ ├── models/ # Mongoose models
-│ ├── routes/ # Express routes (auth, tasks)
-│ ├── server.js # Backend entry point
-│ └── .env # Environment variables
-│
-│── frontend/ # React + Vite client
-│ ├── src/ # Pages, components, API utils
-│ ├── public/
-│ └── vite.config.js
-│
-└── README.md # Documentation
-
 
 ---
 
@@ -40,6 +22,22 @@ Scalable-Web-App/
 - 🚫 Protected Dashboard route (only logged-in users can access)  
 - ✅ Task Manager (Add/Delete tasks, persisted in MongoDB)  
 - 🌍 CORS-configured backend for cross-origin communication  
+
+---
+
+# My Project
+
+Here’s the login page:
+
+![Login Screenshot](.frontend/assets/login.png)
+
+Here’s the dashboard:
+
+![Dashboard Screenshot](.frontend/assets/dashboard.png)
+
+Here’s the CRUD operations:
+
+![CRUD Screenshot](.frontend/assets/image.png)
 
 ---
 
